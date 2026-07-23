@@ -14,7 +14,7 @@ Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffag
 
 ## Contenu du dépôt
 
-* `ENB2012_data_clean.csv` : Dataset nettoyé prêt à l'emploi.
+* `ENB2012_data_clean.csv` : Dataset utilisé (Energy Efficiency Data Set) nettoyé prêt à l'emploi.
 * `Notebook_Prediction_Energie_Batiments.ipynb` : Notebook Jupyter contenant l'intégralité du code (prétraitement, entraînement des modèles ELM et BP, évaluation et visualisation).
 * `Rapport.pdf` : Rapport détaillé du projet, de la méthodologie, et de l'analyse des résultats architecturaux.
 * `README.md` : Ce fichier.
