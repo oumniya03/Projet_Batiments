@@ -21,11 +21,11 @@ Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffag
 
 ## Description du dataset
 
-* 📦 **768 échantillons** représentant des bâtiments virtuels[cite: 2].
-* 🔢 **8 variables d’entrée** (Compacité relative, Surface totale, Surface des murs, Surface du toit, Hauteur, Orientation, etc.)[cite: 2].
+* 📦 **768 échantillons** représentant des bâtiments virtuels.
+* 🔢 **8 variables d’entrée** (Compacité relative, Surface totale, Surface des murs, Surface du toit, Hauteur, Orientation, etc.).
 * 🎯 **2 cibles à prédire :**
-  * **Y1** : Heating Load (charge de chauffage)[cite: 2]
-  * **Y2** : Cooling Load (charge de refroidissement)[cite: 2]
+  * **Y1** : Heating Load (charge de chauffage)
+  * **Y2** : Cooling Load (charge de refroidissement)
 
 ## Méthodologie
 
