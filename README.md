@@ -59,7 +59,7 @@ Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffag
 Cloner ce dépôt, puis installer les dépendances requises :
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn
-
+```
 Lancer ensuite Jupyter Notebook pour ouvrir et exécuter le fichier `Notebook_Prediction_Energie_Batiments.ipynb` :
 
 ```bash
