@@ -9,14 +9,14 @@
 ## Objectif
 
 Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffage (Heating Load - Y1) et de refroidissement (Cooling Load - Y2) des bâtiments résidentiels à partir de leurs caractéristiques de conception. Pour cela, nous comparons deux approches de réseaux de neurones :
-* 🧠 **Extreme Learning Machine (ELM)**[cite: 2]
-* 🔁 **Backpropagation (BP) via `MLPRegressor`**[cite: 2]
+* 🧠 **Extreme Learning Machine (ELM)**
+* 🔁 **Backpropagation (BP) via `MLPRegressor`**
 
 ## Contenu du dépôt
 
 * `ENB2012_data_clean.csv` : Dataset nettoyé prêt à l'emploi.
 * `Notebook_Prediction_Energie_Batiments.ipynb` : Notebook Jupyter contenant l'intégralité du code (prétraitement, entraînement des modèles ELM et BP, évaluation et visualisation).
-* `Rapport.pdf` : Rapport détaillé du projet, de la méthodologie, et de l'analyse des résultats architecturaux[cite: 2].
+* `Rapport.pdf` : Rapport détaillé du projet, de la méthodologie, et de l'analyse des résultats architecturaux.
 * `README.md` : Ce fichier.
 
 ## Description du dataset
