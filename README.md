@@ -65,4 +65,13 @@ jupyter notebook
 * **Performance des Modèles :** Le modèle BP (architecture 50,50 avec ReLU) offre la meilleure précision prédictive (RMSE le plus bas et R² le plus élevé) pour les deux cibles. L'ELM s'est néanmoins révélé être une excellente alternative, offrant des prédictions visuellement plus lisses et un temps d'entraînement réduit.
 * **Analyse Architecturale :** Les deux variables influençant le plus fortement les charges de chauffage et de refroidissement sont la hauteur globale (`Overall_Height`) et la surface du toit (`Roof_Area`). 
 
+## 📄 Licence
 
+MIT License - Projet académique
+
+## 👤 Auteur
+
+**Oumniya Moutaouakil** 
+- Master's Student in Advanced Machine Learning & Multimedia Intelligence.
+- GitHub: [@oumniya03](https://github.com/oumniya03)
+- Project: [Prediction-of-Energy-Efficiency-of-Buildings](https://github.com/oumniya03/Prediction-of-Energy-Efficiency-of-Buildings.git)
