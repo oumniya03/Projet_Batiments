@@ -30,13 +30,13 @@ Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffag
 ## Méthodologie
 
 1. **Chargement & Prétraitement :**
-   * Normalisation des données avec `StandardScaler`[cite: 2].
-   * Séparation en jeu d’entraînement (70%) et de test (30%)[cite: 2].
+   * Normalisation des données avec `StandardScaler`.
+   * Séparation en jeu d’entraînement (70%) et de test (30%).
 2. **Entraînement et Optimisation :**
-   * **ELM :** Test de plusieurs architectures (50, 100, 200 neurones) et fonctions d'activation (tanh, relu, sigmoid, linear)[cite: 2].
-   * **BP :** Recherche par grille (Grid Search) sur les couches cachées `(50,)`, `(100,)`, `(50, 50)` et les activations (ReLU, tanh, logistic)[cite: 2].
+   * **ELM :** Test de plusieurs architectures (50, 100, 200 neurones) et fonctions d'activation (tanh, relu, sigmoid, linear).
+   * **BP :** Recherche par grille (Grid Search) sur les couches cachées `(50,)`, `(100,)`, `(50, 50)` et les activations (ReLU, tanh, logistic).
 3. **Évaluation :**
-   * Métriques : RMSE, MAE, R²[cite: 2].
+   * Métriques : RMSE, MAE, R².
 
 ## Résultats finaux
 
@@ -47,12 +47,7 @@ Ce projet universitaire (Master MLAIM-S2) vise à prédire la charge de chauffag
 | **BP (Couches 50-50, ReLU)** | Y1 | 0.7288 | 0.5153 | 0.9948 |
 | **BP (Couches 50-50, ReLU)** | Y2 | 1.4830 | 1.0540 | 0.9756 |
 
-*(Note : Les résultats ci-dessus sont extraits de l'évaluation sur le jeu de test)*[cite: 2].
-
-## Conclusions
-
-* **Performance des Modèles :** Le modèle BP (architecture 50,50 avec ReLU) offre la meilleure précision prédictive (RMSE le plus bas et R² le plus élevé) pour les deux cibles[cite: 2]. L'ELM s'est néanmoins révélé être une excellente alternative, offrant des prédictions visuellement plus lisses et un temps d'entraînement réduit[cite: 2].
-* **Analyse Architecturale :** Les deux variables influençant le plus fortement les charges de chauffage et de refroidissement sont la hauteur globale (`Overall_Height`) et la surface du toit (`Roof_Area`)[cite: 2]. 
+*(Note : Les résultats ci-dessus sont extraits de l'évaluation sur le jeu de test)*.
 
 ## Comment exécuter
 
@@ -64,3 +59,10 @@ Lancer ensuite Jupyter Notebook pour ouvrir et exécuter le fichier `Notebook_Pr
 
 ```bash
 jupyter notebook
+```
+## Conclusions
+
+* **Performance des Modèles :** Le modèle BP (architecture 50,50 avec ReLU) offre la meilleure précision prédictive (RMSE le plus bas et R² le plus élevé) pour les deux cibles. L'ELM s'est néanmoins révélé être une excellente alternative, offrant des prédictions visuellement plus lisses et un temps d'entraînement réduit.
+* **Analyse Architecturale :** Les deux variables influençant le plus fortement les charges de chauffage et de refroidissement sont la hauteur globale (`Overall_Height`) et la surface du toit (`Roof_Area`). 
+
+
